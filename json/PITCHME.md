@@ -29,6 +29,31 @@
 
 ---
 
+
+## Loading JSON from a file
+
+- Server-side only (nodejs)
+- Could load a file and then use `JSON.parse`
+- Or simply
+
+```const jsonContent = require("./file.json");```
+
+---
+
+## Writing JSON to a file
+
+- Server-side only (nodejs)
+- Convert object to JSON with `JSON.stringify`
+- Use `writeFileSync` from the `fs` module
+
+```
+const fs = require('fs');
+let data = JSON.stringify([1, 2, 3]);
+fs.writeFileSync('./file.json', data);
+```
+
+---
+
 ## Sending JSON with fetch
 
 - Set method to `POST`
@@ -61,25 +86,7 @@ To send JSON jwith express either
 - use [res.json()](https://expressjs.com/en/api.html#res.json)
 - pass [res.send()](https://expressjs.com/en/api.html#res.send) an Array or Object
 
-## Writing JSON to a file
 
-- Server-side only (nodejs)
-- Convert object to JSON with `JSON.stringify`
-- Use `writeFileSync` from the `fs` module
-
-```
-const fs = require('fs');
-let data = JSON.stringify([1, 2, 3]);
-fs.writeFileSync('./file.json', data);
-```
-
-## Loading JSON from a file
-
-- Server-side only (nodejs)
-- Could load a file and then use `JSON.parse`
-- Or simply
-
-```const jsonContent = require("./file.json");```
 
 
 
