@@ -18,8 +18,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -92,7 +95,7 @@ jasmine, ava)</li>
 href="https://raygun.com/blog/javascript-unit-testing-frameworks/">recent
 review</a></li>
 <li>Also see <a
-href="https://2023.stateofjs.com/en-US/libraries/testing/">StateofJS</a></li>
+href="https://2024.stateofjs.com/en-US/libraries/testing/">StateofJS</a></li>
 <li><code>npm install --save-dev jest</code></li>
 <li>Tests are js programs (as in jUnit)</li>
 <li>Put tests in test directory or name .test.js</li>
@@ -106,7 +109,7 @@ href="https://2023.stateofjs.com/en-US/libraries/testing/">StateofJS</a></li>
 <li>Add test script to your package.json</li>
 <li>run test with npm test</li>
 <li>see some <a
-href="https://github.com/stevenaeola/progblack_lectures/blob/main/nodejs_testing/app.test.js">example
+href="https://github.com/stevenaeola/proglectures_js/blob/main/nodejs_testing/app.test.js">example
 tests for thing</a></li>
 </ul>
 </section>

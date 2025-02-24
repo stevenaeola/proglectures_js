@@ -50,7 +50,7 @@
 - There are very many JavaScript unit testing frameworks (mocha, jasmine, ava)
 - I recommend using [Jest](https://jestjs.io/)
 - Read a [recent review](https://raygun.com/blog/javascript-unit-testing-frameworks/)
-- Also see [StateofJS](https://2023.stateofjs.com/en-US/libraries/testing/)
+- Also see [StateofJS](https://2024.stateofjs.com/en-US/libraries/testing/)
 - `npm install --save-dev jest`
 - Tests are js programs (as in jUnit)
 - Put tests in test directory or name .test.js
@@ -63,7 +63,7 @@
 - Use nodemon to auto-restart server
 - Add test script to your package.json
 - run test with npm test
-- see some [example tests for thing](https://github.com/stevenaeola/progblack_lectures/blob/main/nodejs_testing/app.test.js) 
+- see some [example tests for thing](https://github.com/stevenaeola/proglectures_js/blob/main/nodejs_testing/app.test.js) 
 
 ---
 
