@@ -46,7 +46,7 @@ Licensed under [Creative Commons Attribution 4.0 International](https://creative
 - Developed by Linus Torvalds and others to manage the Linux kernel
 - Linus named it after himself
 - Designed to be fast
-- Very widely used in academia and industry
+- Very widely used in academia and industry ([80.5%](https://survey.stackoverflow.co/2025/technology#most-popular-technologies-office-stack-async-prof))
 
 
 
