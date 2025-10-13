@@ -1,26 +1,5 @@
 # Collaboration with git {data-background-color=#7E317B}
 
----
-
-## Formative group task (wk 4)
-
-- Work in groups of about three from your practical group
-- Develop a set of web pages showcasing societal impact of CS
-- Use a framework e.g. Bootstrap
-- All pages to have author info linking to github and linkedin
-
----
-
-## Peer review (week 5)
-
-- Interesting content
-- Good consistent visual presentation
-- Good written presentation
-- Valid HTML
-- Author info not to be written by author
-- Balanced contributions from members
-- Not done at the last minute
-- Provide comments as pull request
 
 ---
 
