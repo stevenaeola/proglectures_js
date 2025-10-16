@@ -100,6 +100,7 @@ If your PR is accepted
 - Repeat new issue branch/commit/push/PR
 
 When your PR is accepted/rejected
+
 - you might want to remove that branch
 
 
