@@ -111,10 +111,12 @@ I use [node-red](https://nodered.org/) for [music](https://flows.nodered.org/nod
 ## And then ...
 
 If your PR is accepted
+
 - Switch to main `git checkout main`
 - Pull the changes from upstream
-  - `git pull upstream`
+- `git pull upstream`
 - Repeat new issue branch/commit/push/PR
+
 When your PR is accepted/rejected
 - you might want to remove that branch
 
