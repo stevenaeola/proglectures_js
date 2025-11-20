@@ -7,26 +7,32 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/reveal.css">
   <style>
     .reveal .sourceCode {  /* see #7635 */
       overflow: visible;
     }
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/simple.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/theme/simple.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -46,7 +52,6 @@ style="width:40.0%" alt="." />
 <section class="slide level1">
 
 <h2 id="what-and-why">What and Why?</h2>
-<div>
 <ul>
 <li class="fragment">Server-side scripting in JavaScript: alternative to
 php, asp, RoR</li>
@@ -55,12 +60,10 @@ php, asp, RoR</li>
 <li class="fragment">Package manager npm claims to be largest ecosystem
 of open source libraries in the world</li>
 </ul>
-</div>
 </section>
 <section class="slide level1">
 
 <h2 id="history">History</h2>
-<div>
 <ul>
 <li class="fragment">Developed from 2009</li>
 <li class="fragment">Based on Chrome V8 Javascript engine: compiles to
@@ -77,12 +80,10 @@ href="https://yarnpkg.com/">yarn</a>). See <a
 href="https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm">left
 pad incident</a></li>
 </ul>
-</div>
 </section>
 <section class="slide level1">
 
 <h2 id="hosting">Hosting</h2>
-<div>
 <ul>
 <li class="fragment">Cross-platform installation available for local
 hosting</li>
@@ -91,20 +92,17 @@ Azure, openshift, IBM bluemix</li>
 <li class="fragment">Not as widely available as php but more than most
 others (my opinion/experience)</li>
 </ul>
-</div>
 </section>
 <section class="slide level1">
 
 <h2 id="hello-world">Hello world</h2>
 <pre><code>console.log(&quot;Hello world&quot;)</code></pre>
-<div>
 <ul>
 <li class="fragment">Save in hello.js</li>
 <li class="fragment">run with <code>node hello.js</code> or via VSC</li>
 <li class="fragment">uses terminal as console instead of browser
 tools</li>
 </ul>
-</div>
 </section>
 <section class="slide level1">
 
@@ -133,7 +131,6 @@ module (like php often is)</li>
 <section class="slide level1">
 
 <h2 id="event-loop">Event loop</h2>
-<div>
 <ul>
 <li class="fragment">node runs on an event loop</li>
 <li class="fragment">callbacks are associated with events</li>
@@ -148,7 +145,6 @@ are provided for things like
 <li class="fragment">next instruction is executed once all callbacks are
 complete</li>
 </ul>
-</div>
 </section>
 <section class="slide level1">
 
@@ -168,7 +164,6 @@ data-background-color="#A5C8D0">
 <section class="slide level1">
 
 <h2 id="why-express">Why express?</h2>
-<div>
 <ul>
 <li class="fragment">Variables can be GET-encoded</li>
 <li class="fragment">In REST APIs they are often included in the URL
@@ -181,7 +176,6 @@ for this in nodejs</li>
 <li class="fragment">There is a commonly used package called <a
 href="https://expressjs.com/">express</a></li>
 </ul>
-</div>
 </section>
 <section id="npm-packages" class="slide level1">
 <h1>npm packages</h1>
@@ -254,14 +248,12 @@ app.get(&#39;/r&#39;, function(req, resp){
 })
 
 app.listen(8090)</code></pre>
-<div>
 <ul>
 <li class="fragment">Adds two separate routes</li>
 <li class="fragment">Extract max value in two different ways</li>
 <li class="fragment">Via value in URL (:max)</li>
 <li class="fragment">Via value in GET-encoded variable</li>
 </ul>
-</div>
 </section>
 <section class="slide level1">
 
@@ -291,12 +283,12 @@ data-background-color="#A5C8D0">
     </div>
   </div>
 
-  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/dist/reveal.js"></script>
 
   <!-- reveal.js plugins -->
-  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
-  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
-  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/plugin/zoom/zoom.js"></script>
 
   <script>
 
