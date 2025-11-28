@@ -7,12 +7,15 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/reveal.css">
   <style>
     .reveal .sourceCode {  /* see #7635 */
       overflow: visible;
     }
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -29,7 +32,7 @@
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/simple.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/theme/simple.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -45,7 +48,6 @@ Interaction</h1>
 </section>
 <section id="summary" class="slide level2">
 <h2>Summary</h2>
-<div>
 <ul>
 <li class="fragment">Asynchronous JavaScript (AJAX)</li>
 <li class="fragment">Fetch API</li>
@@ -54,11 +56,9 @@ Interaction</h1>
 <li class="fragment">async and await</li>
 <li class="fragment">Exceptions</li>
 </ul>
-</div>
 </section>
 <section id="asynchronous-javascript-and-xml-ajax" class="slide level2">
 <h2>Asynchronous JavaScript and XML (AJAX)</h2>
-<div>
 <ul>
 <li class="fragment">Use to update part of an HTML page with the result
 of a request</li>
@@ -70,11 +70,9 @@ content</li>
 <li class="fragment">‘Single page app’</li>
 <li class="fragment">Mostly use JSON instead of XML these days</li>
 </ul>
-</div>
 </section>
 <section id="fetch-api" class="slide level2">
 <h2>Fetch API</h2>
-<div>
 <ul>
 <li class="fragment">Before ES6 most people used <a
 href="http://api.jquery.com/category/ajax/">jQuery for AJAX</a></li>
@@ -84,7 +82,6 @@ API</a> does this natively</li>
 <li class="fragment">Polyfill https://github.com/github/fetch works on
 any browser</li>
 </ul>
-</div>
 </section>
 <section id="fetch-example-html" class="slide level2">
 <h2>Fetch example HTML</h2>
@@ -207,12 +204,12 @@ keyword</li>
     </div>
   </div>
 
-  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/dist/reveal.js"></script>
 
   <!-- reveal.js plugins -->
-  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
-  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
-  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/plugin/zoom/zoom.js"></script>
 
   <script>
 
