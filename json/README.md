@@ -49,7 +49,7 @@ fs.writeFileSync('./file.json', data);
 
 ## Sending JSON with fetch
 
-- Set method to `POST`
+- Set method to `POST` 
 - Set `'Content-Type': 'application/json'` in headers
 - Use [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify) to encode body
 - See [postStuff example](./postStuff.js)
