@@ -29,6 +29,7 @@ Response to request may be used to update or replace some or all of a web page.
 ## Sources of requests
 
 How might http requests be generated?
+
 - Hyperlink followed
 - Form submitted
 - Clicking in an image map
