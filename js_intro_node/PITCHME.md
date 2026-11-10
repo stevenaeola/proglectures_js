@@ -1,6 +1,6 @@
 # Introduction to nodejs {data-background-color=#7E317B}
 
-![.](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/220px-Node.js_logo.svg.png){width=40%}
+![.](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg){width=40%}
 
 ---
 
