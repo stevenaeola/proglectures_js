@@ -38,7 +38,7 @@
 ::: incremental
 
 - Before ES6 most people used [jQuery for AJAX](http://api.jquery.com/category/ajax/)
-- Now the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) does this natively
+- The [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) does this natively, so use it
 - Polyfill https://github.com/github/fetch works on any browser
 
 :::
@@ -137,7 +137,6 @@ If you want to deal with 404 errors you will have to look at `response.ok`
 
 ## async and await
 
-- New in ES2017
 - Provide 'syntactic sugar' for promises `.catch`
 - Use `async` keyword before `function` keyword
 - use `await` keyword in execution
