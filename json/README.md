@@ -63,7 +63,7 @@ fs.writeFileSync('./file.json', data);
   - [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) for an Array
   - [for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) for an Object
 - Create/append/update DOM nodes based on result
-- Could use [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) to update [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
+- Could use [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) to update [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
 
 ## JSON with express (server)
 
@@ -75,9 +75,9 @@ app.use(express.json());
 
 Then access `req.body` within a `.post` route.
 
-To send JSON jwith express either
-- use [res.json()](https://expressjs.com/en/api.html#res.json)
-- pass [res.send()](https://expressjs.com/en/api.html#res.send) an Array or Object
+To send JSON with express either
+- use [res.json()](https://expressjs.com/en/5x/api/response/#resjson)
+- pass [res.send()](https://expressjs.com/en/5x/api/response/#ressend) an Array or Object
 
 
 
