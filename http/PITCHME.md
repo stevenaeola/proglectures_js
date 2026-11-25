@@ -33,7 +33,6 @@ Response to request may be used to update or replace some or all of a web page.
 How might http requests be generated?
 
 - Hyperlink followed
-- Hyperlink followed
 - Form submitted
 - Clicking in an image map
 - Image included in source file
