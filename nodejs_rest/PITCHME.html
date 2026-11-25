@@ -62,9 +62,7 @@ State Transfer</a></h2>
 <li>Results provided in body</li>
 </ul></li>
 <li>Published as an API e.g. <a
-href="https://developer.twitter.com/en/docs/api-reference-index">twitter</a>,
-<a href="https://developer.github.com/v3/">github</a>, <a
-href="https://developers.google.com/gmail/api/v1/reference/">gmail</a></li>
+href="https://developers.google.com/workspace">gmail</a></li>
 </ul>
 </section>
 <section id="implementing-a-rest-api-in-nodejs" class="slide level2">
@@ -78,6 +76,7 @@ href="https://developers.google.com/gmail/api/v1/reference/">gmail</a></li>
 <ul>
 <li>200 for OK (sent by default in express)</li>
 <li>403 for unauthorised</li>
+<li>404 for not found (e.g. wrong id)</li>
 <li>400 for other request error</li>
 </ul></li>
 <li>Extract parameters; send response</li>
@@ -97,9 +96,6 @@ and/or JSON</li>
 <ul>
 <li>Access values with <code>req.body.var_name</code></li>
 </ul>
-<p>See also <a
-href="https://codeburst.io/node-js-by-example-part-1-668376cd4f96">tutorial
-on nodejs to build a REST API</a></p>
 </section>
 <section id="rest-and-single-page-app" class="slide level2">
 <h2>REST and Single Page App</h2>

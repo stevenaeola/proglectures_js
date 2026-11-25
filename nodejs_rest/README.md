@@ -11,7 +11,7 @@
 - Like function call
   - Parameters provided in URL (GET) or body (POST) 
   - Results provided in body
-- Published as an API e.g. [twitter](https://developer.twitter.com/en/docs/api-reference-index), [github](https://developer.github.com/v3/), [gmail](https://developers.google.com/gmail/api/v1/reference/)
+- Published as an API e.g. [gmail](https://developers.google.com/workspace)
 
 
 ## Implementing a REST API in nodejs
@@ -23,6 +23,7 @@
 - Need to thing about http response code e.g.
   - 200 for OK (sent by default in express)
   - 403 for unauthorised
+  - 404 for not found (e.g. wrong id)
   - 400 for other request error
 - Extract parameters; send response
 
@@ -39,7 +40,6 @@ app.use(express.json());
 
 - Access values with `req.body.var_name`
 
-See also [tutorial on nodejs to build a REST API](https://codeburst.io/node-js-by-example-part-1-668376cd4f96)
 
 
 ## REST and Single Page App
